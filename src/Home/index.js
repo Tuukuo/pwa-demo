@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 import './index.css';
 
 const Navbar = () => {
@@ -18,9 +19,9 @@ const Navbar = () => {
       deferredPrompt.prompt();
       deferredPrompt.userChoice.then((choiceResult) => {
         if (choiceResult.outcome === 'accepted') {
-          console.log('User accepted the A2HS prompt');
+          console.log('User accepted the prompt');
         } else {
-          console.log('User dismissed the A2HS prompt');
+          console.log('User dismissed the prompt');
         }
         setDeferredPrompt(null);
       });

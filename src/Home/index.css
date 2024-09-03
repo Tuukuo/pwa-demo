@@ -220,10 +220,10 @@
   
 .install-button {
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     right: 20px;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: greenyellow;
     color: white;
     border: none;
     border-radius: 5px;
