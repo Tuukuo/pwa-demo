@@ -45,7 +45,7 @@ const Navbar = () => {
     <div id='home'>
       <nav className="nav">
         <div className="logo">
-          <img src="/Images/ubora-cbc-logo.png" alt="Ubora Cbc Logo, Hello" />
+          <img src="/Images/logo1.png" alt="Ubora Cbc Logo, Hello" />
         </div>
         <ul className={`nav-menu ${isOpen ? 'open' : ''}`}>
           <li className="nav-item"><a>Home</a></li>
@@ -71,25 +71,13 @@ const Navbar = () => {
       <div className="hero-section">
         <div className="hero-content">
           <div>
-            <p className="ubora">Ubora CBC,</p>
-            <p className="unlocking">Unlocking practical knowledge</p>
+            <p className="ubora">Spot Us</p>
+            <p className="unlocking">Identification and development of young sports talents</p>
             <button className="learn-more" onClick={() => {}}>
               Learn More...
             </button>
           </div>
-          <img src="/images/cbckids.png" alt="Kids" className="kidsImage" />
-        </div>
-        <div className="features">
-          <div className="features-content">
-            <h3 className="qa-post">Q&A Post</h3>
-            <p className="practicals">Practicals</p>
-          </div>
-          <div className="image-row">
-            <img src="/images/girl.png" alt="Girl" />
-            <img src="/images/boy.png" alt="Boy" className="boy-image" />
-            <img src="/images/cooking.png" alt="Cooking" />
-            <img src="/images/planting.png" alt="Planting" />
-          </div>
+          <img src="/Images/animation.png" alt="Kids" className="kidsImage" />
         </div>
       </div>
 
